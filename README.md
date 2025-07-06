@@ -22,6 +22,8 @@ We use these embeddings or node representations to train **supervised classifier
 We use the **Elliptic Bitcoin dataset**, which contains:
 - A directed transaction graph with temporal structure.
 - Node-level class labels: **licit**, **illicit**, or **unknown**.
+- **Nodes and edges**
+The graph is made of 203,769 nodes and 234,355 edges. Two percent (4,545) of the nodes are labelled class1 (illicit). Twenty-one percent (42,019) are labelled class2 (licit). The remaining transactions are not labelled with regard to licit versus illicit.
 
 
 
