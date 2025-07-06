@@ -1,6 +1,4 @@
-
-
-"""# AML Detection in Bitcoin Transactions using Graph Embedding Models
+# AML Detection in Bitcoin Transactions using Graph Embedding Models
 
 This project applies multiple **graph representation learning techniques**—including **DeepWalk**, **Node2Vec**, **GraphSAGE**, and **Graph Isomorphism Networks (GIN)**—to detect **illicit transactions in the Bitcoin network** using the Elliptic dataset.
 
@@ -24,7 +22,7 @@ We use these embeddings or node representations to train **supervised classifier
 We use the **Elliptic Bitcoin dataset**, which contains:
 - A directed transaction graph with temporal structure.
 - Node-level class labels: **licit**, **illicit**, or **unknown**.
-- Hand-crafted features for each transaction (e.g., time, value, centrality).
 
-> The dataset must be downloaded separately. Please place `elliptic_graph.csv` and `elliptic_txs_classes.csv` into a `data/` directory.
+
+
 
